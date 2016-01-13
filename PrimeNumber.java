@@ -4,6 +4,7 @@ NIM		: 1301144142
 Kelas	: IF-38-02
 */
 
+
 import java.util.Scanner;
 
 public class PrimeNumber {
