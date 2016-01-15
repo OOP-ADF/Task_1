@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 NAMA 	: Agung Rahmat Budiman
 NIM		: 1301144142
@@ -43,3 +44,5 @@ public class TemperatureConvert {
 		}while(pil2!='n');
 	}
 }
+=======
+>>>>>>> refs/remotes/OOP-ADF/master
