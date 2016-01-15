@@ -8,15 +8,14 @@ import java.util.Scanner;
 
 public class TemperatureConvert {
 	public static void main(String[] args) {
-		int pil;
-		char pil2;
+		char pil,pil2;
 		double celcius,reamur,fahrenheit,kelvin;
 		Scanner scan = new Scanner(System.in);
 		Scanner scan2 = new Scanner(System.in);
 		System.out.print("Masukkan suhu dalam celcius : ");
-		celcius = scan.nextInt();
+		celcius = scan.nextDouble();
 		reamur = 0.8*celcius;
-		fahrenheit = (9/5*celcius)+32;
+		fahrenheit = (1.8*celcius)+32;
 		kelvin = celcius+273;
 		do {
 			System.out.println("Diubah ke");
@@ -24,15 +23,16 @@ public class TemperatureConvert {
 			System.out.println("2.Reamur");
 			System.out.println("3.Kelvin");
 			System.out.print("Pilihan anda : ");
-			pil = scan.nextInt();
+			pil = scan2.next().charAt(0);
+			System.out.print("hasil konversi : ");
 			switch(pil) {
-				case 1 :
+				case '1' :
 					System.out.println(fahrenheit+" Fahrenheit");
 					break;
-				case 2 :
+				case '2' :
 					System.out.println(reamur+" Reamur");
 					break;
-				case 3 :
+				case '3' :
 					System.out.println(kelvin+" Kelvin");
 					break;
 			}

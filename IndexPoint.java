@@ -35,6 +35,6 @@ public class IndexPoint {
 			grade = "failed";
 		}
 		
-		System.out.print("Grade Anda adalah : "+grade);
+		System.out.print("Grade Anda : "+grade);
 	}
 }
