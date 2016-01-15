@@ -1,3 +1,5 @@
+//Nama : Ubassy Abdillah
+//NIM : 1301148282
 import java.util.Scanner;
 public class TemperatureConvert {
 	public static void main(String[] args) {
