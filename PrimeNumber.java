@@ -1,4 +1,7 @@
-// botak
+// Muhammad Andika 
+// 1301140145
+// IF 38-09
+
 import java.util.Scanner;
 
 public class PrimeNumber {
@@ -23,7 +26,7 @@ public class PrimeNumber {
        if (isPrime(num)){
            System.out.println("this number is prime");
        } else {
-           System.out.println("This number is not prime");
+           System.out.println("this number is not prime");
        }
  
     }
