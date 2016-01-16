@@ -8,7 +8,9 @@ package prima;
 
 /**
  *
- * @author ACER
+ * @author mahasiswabelajar7[1301144342]
+ * Class : IF 38 02
+ * Date : 1/16/2016
  */
 import java.util.Scanner;
 public class Prima {
