@@ -1,3 +1,7 @@
+/* Reynaldi Ananda Pane
+   IF-38-09
+   1301144099
+*/
 package indexpoint;
 import java.util.Scanner;
 /**
