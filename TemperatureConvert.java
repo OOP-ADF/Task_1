@@ -1,3 +1,7 @@
+/* Muhammad Yuslan Abubakar
+    1301141071
+    IF - 38 - 01 */
+
 package temperatureconvert;
 
 import java.util.Scanner;
