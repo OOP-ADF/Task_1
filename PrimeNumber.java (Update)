@@ -1,0 +1,37 @@
+/* Muhammad Yuslan Abubakar
+    1301141071
+    IF - 38 - 01 */
+
+package primenumber;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author yuslanabubakar
+ */
+public class PrimeNumber {
+    public static void main(String[] args) {               
+        System.out.println("Selamat Datang Di Program Bilangan Prima");
+        System.out.println();
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan Angka : ");
+        int angka = input.nextInt();
+        
+        int tampung = 0;
+        
+        for (int i = 1; i < angka; i++){
+            if (angka % i == 0){
+                tampung++;
+            }
+        }
+        
+        if (tampung == 1) {
+            System.out.println("Angka "+angka+" adalah bilangan prima");
+        }
+        else {
+            System.out.println("Angka "+angka+" adalah bukan bilangan prima");
+        }
+    }
+}
