@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @Author      : Rizky M 	uhammad Rifai
+ * @Author      : Rizky Muhammad Rifai
  * @Student ID  : 1301144019
  * @Class       : IF-38-09
  */
