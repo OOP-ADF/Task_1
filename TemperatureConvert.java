@@ -2,6 +2,7 @@
 // 1301140145
 // IF 38-09
 
+
 import java.util.Scanner;
 
 public class TemperatureConvert {
@@ -10,18 +11,18 @@ public class TemperatureConvert {
 
     public TemperatureConvert(double num, String str) {
         switch ( str ) {
-            case "Celcius" :
+            case "celcius" :
 		this.c = num;
 		break;
-            case "Fahrenheit" :
+            case "fahrenheit" :
 		this.f = num;
 		this.c = fahrenheitToCelcius(this.f);
 		break;
-            case "Kelvin" :
+            case "kelvin" :
 		this.k = num;
 		this.c = kelvinToCelcius(this.k);
 		break;
-            case "Reamur" :
+            case "rheamur" :
 		this.r = num;
 		this.c = rheamurToCelcius(this.r);
 		break;
@@ -58,10 +59,23 @@ public class TemperatureConvert {
         return num * 4 / 5;
     }
     
-    public void outputSuhu () {
-        System.out.println(this.c + "Celcius\t\t: ");
-        System.out.println(this.r + "Rheamur\t\t: ");
-        System.out.println(this.f + "Fahrenheit\t: ");
-        System.out.println(this.k + "Kelvin\t\t: ");
+    public void outputTemperature () {
+        System.out.println("Celcius\t\t: " + this.c);
+        System.out.println("Rheamur\t\t: " + this.r);
+        System.out.println("Fahrenheit\t: " + this.f);
+        System.out.println("Kelvin\t\t: " + this.k);
     }
+    
+    public static void main(String[] args) {
+    	Scanner sc = new Scanner(System.in);
+    	
+    	System.out.println("Temperature Converter");
+        System.out.println("ex : 34 fahrenheit");
+        
+        System.out.print("insert temperature : ");
+        TemperatureConvert tc = new TemperatureConvert(sc.nextDouble(),sc.next());
+        
+        tc.outputTemperature();	
+    }
+    
 }
