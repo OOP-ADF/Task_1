@@ -28,15 +28,9 @@ public class Index_Point {
     System.out.print("Nilai Quiz: ");
     //variabel untuk menampung nilai qiuz
     int quiz = input.nextInt();
-    
-    //nilai uts setelah dikalkulasikan
-    double total_uts = uts*0.35;
-    //nilai uas setelah dikalkulasikan
-    double total_uas = uas*0.4;
-    //nilai quiz setelah dikalkulasikan
-    double total_quiz = quiz*0.25;
+   
     //nilai total setelah dikalkulasikan nilai uts+uas+quiznya
-    double total_nilai = total_uts+total_uas+total_quiz;
+    double total_nilai = (uts*0.35)+(uas*0.4)+(quiz*0.25);
     //jika diantara 0-49 status "gagal"
     if(0<total_nilai && total_nilai<50) {
         System.out.println("Failed");
