@@ -29,7 +29,7 @@ public class TemperatureConvert {
             System.out.print("Masukan Angka Celcius : "); 
             int celcius = C.nextInt();
             int hasilR = (int) (celcius+273);
-            System.out.println("Hasil Konversi Celcius to Fahrenheit = "+hasilR);
+            System.out.println("Hasil Konversi Celcius to Kelvin = "+hasilR);
         }
     }
 }
