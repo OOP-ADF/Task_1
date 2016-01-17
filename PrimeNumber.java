@@ -22,8 +22,7 @@ public class Tugas1 {
         int j=0;
         
         System.out.println("masukan angka :");
-        no = baca.nextInt();
-       
+        no = baca.nextInt();     
         do{
             if((no % i)==0){
             j++;
