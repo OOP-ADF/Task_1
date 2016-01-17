@@ -8,25 +8,24 @@ public class TemperatureConvert {
         System.out.println("2. Celcius -> Fahrenheit");
         System.out.println("3. Celcius -> Kelvin");
         Scanner pil = new Scanner (System.in);   
-        System.out.print("Masukan pilihan : "); 
+        System.out.print("Masukan pilihan : ");
+        
+        Scanner C = new Scanner (System.in);
         
         int pilih = pil.nextInt();
         if (pilih == 1){
-            Scanner C = new Scanner (System.in);
             System.out.print("Masukan Angka Celcius : "); 
             int celcius = C.nextInt();
             int hasilR = (int) (celcius*0.8);
             System.out.println("Hasil Konversi Celcius to Reamur = "+hasilR); 
         }
         if (pilih == 2){
-            Scanner C = new Scanner (System.in);
             System.out.print("Masukan Angka Celcius : "); 
             int celcius = C.nextInt();
             int hasilR = (int) ((celcius*1.8)+32);
             System.out.println("Hasil Konversi Celcius to Fahrenheit = "+hasilR);
         }
         if (pilih == 3){
-            Scanner C = new Scanner (System.in);
             System.out.print("Masukan Angka Celcius : "); 
             int celcius = C.nextInt();
             int hasilR = (int) (celcius+273);

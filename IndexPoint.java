@@ -4,14 +4,12 @@ public class IndexPoint {
     public static void main(String[] args) {
         System.out.println("Menghitung Nilai Akhir");
         System.out.print("Masukkan Nilai Quiz : ");
-        Scanner quiz = new Scanner(System.in);
-        float nilaiquiz = quiz.nextFloat();
+        Scanner nilai = new Scanner(System.in);
+        float nilaiquiz = nilai.nextFloat();
         System.out.print("Masukkan Nilai UTS : ");
-        Scanner uts = new Scanner(System.in);
-        float nilaiuts = uts.nextFloat();
+        float nilaiuts = nilai.nextFloat();
         System.out.print("Masukkan Nilai UAS : ");
-        Scanner uas = new Scanner(System.in);
-        float nilaiuas = uas.nextFloat();
+        float nilaiuas = nilai.nextFloat();
         
         float hasilquiz = ((25*nilaiquiz)/100);
         float hasiluts = ((35*nilaiuts)/100);
