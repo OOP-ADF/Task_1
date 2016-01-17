@@ -4,21 +4,22 @@ public class PrimeNumber {
 public static void main(String[] args) {  
 
 Scanner input = new Scanner (System.in);  
-System.out.println("Masukan bilangan :");  
+System.out.print("Masukan bilangan :");  
 
 int bil = input.nextInt();  
-boolean prima = true;  
+int i = 1;
+int b = 0;
 
-for (int i=2; i<bil; i++){        
-	if ((bil % i) == 0) {  
-		prima = false; break;  
-  
-    }  
-}  
+    while (i <= bil) {        
+        if ((bil % i) == 0) {
+            b=b+1;
+        }
+        i=i+1;
+    }
 
-if (prima)    
+if (b==2)    
 	System.out.println(bil + " adalah bilangan PRIMA ");    
 else  
 	System.out.println(bil + " adalah bukan bilangan PRIMA ");  
     }  
-}  
+} 
