@@ -22,4 +22,8 @@ if (b==2)
 else  
 	System.out.println(bil + " adalah bukan bilangan PRIMA ");  
     }  
+<<<<<<< HEAD
 }  
+=======
+} 
+>>>>>>> origin/master
