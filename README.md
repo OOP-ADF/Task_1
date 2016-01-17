@@ -1,3 +1,6 @@
+Alfian Pamungkas Sakawiguna
+1301144411 - IF 38-01
+
 # Task_1
 OOP ADF Task 1 : Introduction to Java
 > This exercise is intended to allow students to practice basic Java programming  <br>
