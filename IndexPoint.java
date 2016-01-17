@@ -2,42 +2,52 @@
 Nim: 13011440062
 Kelas: IF-38-02*/
 
-package TemperatureConvert;
-import java.util.scanner;
+package IndexPoint;
+//import utilitas java yaitu scanner untuk memasukkan data
+import java.util.Scanner;
 
 
-public class TemperatureConvert {
-	
-	public static void main (String[] args) {
-		double celcius, hasilReamur, hasilFarenheit, hasilKelvin;
-		int pilih;
+public class IndexPoint {
+
+    public static void main (String[] args) {
+		//membuat variabel
+		int midTerm, endTerm, quiz;
+		double midTermScore, endTermScore, quizScore, finalScore;
+		//membuat scanner baru
 		Scanner masukan = new Scanner(System.in);
-		System.out.println ("=== TEMPERATURE CONVERT ===");
-		System.out.print (" Celcius = ");
-		celcius = masukan.nextInt();
-		System.out.println ("Pilihan Konvert Temperatur");
-		System.out.println ("1. Reamur");
-		System.out.println ("2. Farenheit");
-		System.out.println ("3. Kelvin");
-		System.out.print ("Masukkan Pilihan : ");
-		pilih = masukan.nextInt();
-		
-		switch(pilih) {
-			case 1 :
-				hasilReamur = celcius*4/5;
-				System.out.println (celcius + " Celcius = " + hasilReamur + " Reamur");
-				break;
-			case 2 :
-				hasilFarenheit = (celcius*9/5)+32;
-				System.out.println (celcius + " Celcius = " + hasilFarenheit + " Farenheit");
-				break;
-			case 3 :
-				hasilKelvin = celcius+273;
-				System.out.println (celcius + " Celcius = " + hasilKelvin + " Kelvin");
-				break;
-			default :
-				System.out.println ("Pilihan yang anda masukan salah");
-				break;
+		System.out.print ("=== INDEX POINT ===")
+		//memasukkan nilai Score
+		System.out.print ("Mid-term Score : ");
+		midTerm = masukan.nextInt();
+		System.out.print ("End-term Score : ");
+		endTerm = masukan.nextInt();
+		System.out.print ("Quiz : ");
+		quiz = masukan.nextInt();
+	
+		//kalkulasi score
+		midTermScore = midTerm*0.35;
+		endTermScore = endTerm*0.4;
+		quizScore = quiz*0.25;
+		finalScore = midTermScore+endTermScore+quizScore;
+	
+		//pengondisian dan memunculkan grade score
+		if ((finalScore>=85) && (finalScore<=100)) {
+			System.out.println("Nilai Akhir Anda EXCELLENT");
+		}
+		else if ((finalScore>=75) && (finalScore<=84)) {
+			System.out.println ("Nilai Akhir Anda VERY GOOD");
+		}
+		else if ((finalScore>=65) && (finalScore<=74)) {
+			System.out.println ("Nilai AKhir Anda GOOD");
+		}
+		else if ((finalScore>=50) && (finalScore<=64)) {
+			System.out.println ("Nilai Akhir ANda ACCEPTED");
+		}
+		else if ((finalScore>=49 && finalScore<=0)) {
+			System.out.print ("Nilai Akhir Anda FAILED");
+		}
+		else{
+			System.out.println ("Nilai yang Anda Masukan Salah");
 		}
 	}
 }
