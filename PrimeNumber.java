@@ -22,7 +22,7 @@ public class PrimeNumber {
     int hasil;
     
     Scanner scan= new Scanner(System.in);
-    System.out.println("Masukkan Bilangan yang akan di periksa : ");
+    System.out.print("Masukkan Bilangan yang akan di periksa : ");
     
     bil=scan.nextInt();
     
@@ -36,11 +36,13 @@ public class PrimeNumber {
         }
         if(hasil==2)
         {
-            System.out.println("merupakan sebuah bilangan Prima");
+            System.out.print(bil);
+            System.out.print(" merupakan sebuah bilangan Prima");
         }
         else
         {
-            System.out.println("Tidak termasuk bilangan Prima");
+            System.out.print(bil);
+            System.out.println(" Tidak termasuk bilangan Prima");
         }
     }
 }
