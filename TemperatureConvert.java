@@ -19,12 +19,20 @@ public class Temperature_Convert {
     public static void main(String[] args) {
     Scanner pilihan = new Scanner (System.in);
    //menampilkan menu
-    System.out.print("Mengkonversi Nilai Suhu\n"
+    String validasi="";
+    do{
+        validasi="y";
+    System.out.print("||--- Mengkonversi Nilai Suhu ---||\n"
             + "Suhu dari Celcius ke:\n "
             + "1.Reamur \n 2.Fahrenheit"
-            + "\n 3.Kelvin \n======================="
+            + "\n 3.Kelvin \n 4.Exit \n======================="
             + "\n Masukkan Pilihan Anda: ");
     int pilih = pilihan.nextInt();
+    if(pilih==4){
+        validasi="n";
+        System.exit(0);
+        break;
+    }
     Scanner input = new Scanner (System.in);
     System.out.print("======================="
             + "\n Masukkan Nilai Suhu(Celcius): ");
@@ -37,21 +45,24 @@ public class Temperature_Convert {
     
     switch(pilih){
         case 1:
-            System.out.println("\n Nilai Suhu Reamur"
+            System.out.println("\nNilai Suhu Reamur"
                     + "\n================= \n"+reamur+
-                    " Derajat");
-            break; 
+                    " Derajat.\n");
+            
+            break;
+            
         case 2:
-            System.out.println("\n Nilai Suhu Fahreinheit"
-                    + "\n================= \n"+fahreinheit+
-                    " Derajat");
+            System.out.println("\nNilai Suhu Fahreinheit"
+                    + "\n====================== \n"+fahreinheit+
+                    " Derajat.\n");
             break;
         case 3:
-            System.out.println("\n Nilai Suhu Kelvin"
-                    + "\n================== \n"+kelvin+
-                    " Derajat");
+            System.out.println("\nNilai Suhu Kelvin"
+                    + "\n================= \n"+kelvin+
+                    " Derajat.\n");
+            break;
         }
-   
-    }
+    }while(validasi=="y");
     
+    }
 }
