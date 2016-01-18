@@ -1,5 +1,5 @@
 //Dhiva Azhara 1301144101 IF3801
-package primenumber;
+package indexpoint;
 
 import java.util.Scanner;
 
@@ -7,33 +7,43 @@ import java.util.Scanner;
  *
  * @author dhivazhr
  */
-public class PrimeNumber {
+public class IndexPoint {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int angka, prima;
         
-        System.out.println("Masukkan angka: ");
+        double uts, uas, quiz, nilai;
+        String grade;
         
-        Scanner input = new Scanner(System.in);
-        angka = input.nextInt();
+        System.out.print("Nilai UTS: ");
+        Scanner input1 = new Scanner(System.in);
+        uts = input1.nextDouble();
         
-        prima = 0;
-        for (int i=1; i<=angka; i++){
-            if (angka % i == 0)
-            {
-                prima++;
-            }
+        System.out.print("Nilai UAS: ");
+        Scanner input2 = new Scanner(System.in);
+        uas = input2.nextDouble();
+        
+        System.out.print("Nilai Quiz: ");
+        Scanner input3 = new Scanner(System.in);
+        quiz = input3.nextDouble();
+        
+        nilai = ((0.3*uts)+(0.4*uas)+(0.25*quiz));
+        if (nilai>=85 && nilai<=100){
+            grade = "Excelent";
+        } else if (nilai>=75 && nilai<=84){
+            grade = "Very Good";
+        } else if (nilai>=65 && nilai<=74){
+            grade = "Good";
+        } else if (nilai>=50 && nilai<=64){
+            grade = "Accepted";
+        } else{
+            grade = "Failed";
         }
-        if (prima==2) {
-            System.out.println("Angka " +angka +" merupakan bilangan prima");
-        }
-        else{
-            System.out.println("Angka " +angka+ " bukan bilangan prima");
-        }  
+       
+        System.out.print("Grade: " +grade);
+        System.out.println();
     }
     
 }
-
