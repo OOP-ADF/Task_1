@@ -1,0 +1,18 @@
+Êþº¾   4 @
+   	   
+  !	  " #
+ $ %
+  & '
+ 	 
+ 	 ( )
+ 	 *
+ 	 + , - . <init> ()V Code LineNumberTable main ([Ljava/lang/String;)V 
+StackMapTable /  
+SourceFile PrimeNumber.java   java/util/Scanner 0 1 2  3 4 5 Enter the numbers you want 6 7 8 9 : java/lang/StringBuilder ; <  is Prime Number ; = > ?  is Not Prime Number PrimeNumber java/lang/Object [Ljava/lang/String; java/lang/System in Ljava/io/InputStream; (Ljava/io/InputStream;)V out Ljava/io/PrintStream; java/io/PrintStream println (Ljava/lang/String;)V nextInt ()I append (I)Ljava/lang/StringBuilder; -(Ljava/lang/String;)Ljava/lang/StringBuilder; toString ()Ljava/lang/String;                       *· ±            	       ×     q=» Y² · N² ¶ -¶ <6l£ pš =§ 	„§ÿé™ ² » 	Y· 
+¶ ¶ 
+¶ ¶ § ² » 	Y· 
+¶ ¶ 
+¶ ¶ ±       6 
+   	  
+ 
+      %  ,  .  1  7  ;  W  p      ÿ      ú       
