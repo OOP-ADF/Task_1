@@ -14,16 +14,16 @@ public class IndeksNilai{
 		double hasil = (uts*0.35 + uas*0.40 + quiz*0.25);
 		
 		if (hasil>=85 && hasil<=100){
-			Systemout.println("Excelent");
+			System.out.println("Excelent");
 		}
 		else if (hasil>=75 && hasil<=84){
-			Systemout.println("Very Good");
+			System.out.println("Very Good");
 		}
 		else if (hasil>=65 && hasil<=74){
-			Systemout.println("Good");
+			System.out.println("Good");
 		}
 		else if (hasil>=55 && hasil<=64){
-			Systemout.println("Accepted");
+			System.out.println("Accepted");
 		}
 		else{
 			Systemout.println("Failed");
