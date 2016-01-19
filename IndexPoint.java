@@ -4,14 +4,14 @@ public class IndeksNilai{
 	public static void main(String[] args){
 		Scanner input = new Scanner (System.in);
 		
-		System.out.println("Input nilai 1 : ");
-		double nilai1 = input.nextInt();
-		System.out.println("Input nilai 2 : ");
-		double nilai2 = input.nextInt();
-		System.out.println("Input nilai 3 : ");
-		double nilai3 = input.nextInt();
+		System.out.println("Input UTS : ");
+		double uts = input.nextInt();
+		System.out.println("Input UAS : ");
+		double uas = input.nextInt();
+		System.out.println("Input QUIZ : ");
+		double quiz = input.nextInt();
 		
-		double hasil = (nilai1*0.4 + nilai2*0.4 + nilai3*0.2);
+		double hasil = (uts*0.35 + uas*0.40 + quiz*0.25);
 		
 		if (hasil>=85 && hasil<=100){
 			Systemout.println("Excelent");
