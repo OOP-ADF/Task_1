@@ -1,3 +1,4 @@
+//Stephanus Prasetyo 1301142033 IF-38-01
 public class BilanganPrima{
 	public static void main(String[] args){
 		int bilangan = 7;
