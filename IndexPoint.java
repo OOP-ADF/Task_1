@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+Hizas Sabilal Rasyad
+1301140251
+IF3801
+*/
 public class IndexPoint {
     public static void main(String[] args) {
         
