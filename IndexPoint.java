@@ -1,3 +1,4 @@
+//Stephanus Prasetyo 1301142033 IF-38-01
 import java.util.Scanner;
 
 public class IndeksNilai{
