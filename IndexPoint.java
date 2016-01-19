@@ -13,20 +13,20 @@ public class IndeksNilai{
 		
 		double hasil = (nilai1*0.4 + nilai2*0.4 + nilai3*0.2);
 		
-		if (hasil>=81 && hasil<=100){
-			Systemout.println("A");
+		if (hasil>=85 && hasil<=100){
+			Systemout.println("Excelent");
 		}
-		else if (hasil>=71 && hasil<=80){
-			Systemout.println("B");
+		else if (hasil>=75 && hasil<=84){
+			Systemout.println("Very Good");
 		}
-		else if (hasil>=61 && hasil<=70){
-			Systemout.println("C");
+		else if (hasil>=65 && hasil<=74){
+			Systemout.println("Good");
 		}
-		else if (hasil>=51 && hasil<=60){
-			Systemout.println("D");
+		else if (hasil>=55 && hasil<=64){
+			Systemout.println("Accepted");
 		}
 		else{
-			Systemout.println("E");
+			Systemout.println("Failed");
 		}
 	}
 }
