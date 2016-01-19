@@ -1,11 +1,14 @@
 //Stephanus Prasetyo 1301142033 IF-38-01
+import java.util.Scanner;
 public class BilanganPrima{
 	public static void main(String[] args){
-		int bilangan = 7;
+		Scanner input = new Scanner (System.in);
+		System.out.println("Input bilangan : ");
+		int bilangan = input.nextInt();
 		boolean prima = true;
 		
-		for (int i=2; i<=(bilangan/2); i++){
-			if ((bilangan%1) == 0){
+		for (int i=2; i<bilangan; i++){
+			if ((bilangan%i) == 0){
 				prima = false;
 				break;
 			}
