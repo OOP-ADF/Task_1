@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class PrimeNumber {
     public static void main(String[] args){
         Scanner input = new Scanner (System.in);
-        System.out.println("Enter a number : ");
+        System.out.println("Input a number : ");
         int number = input.nextInt();
         boolean prime = true;
         
