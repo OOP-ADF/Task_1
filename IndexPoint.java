@@ -6,6 +6,7 @@
 
 //ANNISA RIZKI PRATIWI WIBOWO
 //1301144391
+//IF-38-01
 
 package indexpoint;
 import java.util.Scanner;
