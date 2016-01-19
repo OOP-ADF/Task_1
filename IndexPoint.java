@@ -26,7 +26,7 @@ public class IndeksNilai{
 			System.out.println("Accepted");
 		}
 		else{
-			Systemout.println("Failed");
+			System.out.println("Failed");
 		}
 	}
 }
