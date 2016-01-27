@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class suhu{
+	public static void main (String [] args){
+		Scanner input = new Scanner (System.in);
+		int cel;
+		float reamur, fahr, kelv;
+		System.out.print("Input Celcius : ");
+		
+		cel=input.nextInt();
+		reamur = 4f/5f*cel;
+		fahr= 9f/5f*cel+32f;
+		
+		kelv=cel+273;
+		System.out.println("Reamur : "+reamur);
+		System.out.println("Fahrenhait : "+fahr);
+		System.out.println("Kelvin : "+kelv);
+	}
+}
