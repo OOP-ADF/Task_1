@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class bilprim{
+	public static void main (String[] args){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Input Angka : ");
+		int x = input.nextInt();
+		int temp = 0;
+		for (int i=1; i<x; i++){
+			if (x%i==0){
+				temp=temp+1;
+			}
+		}
+		if (temp==1){
+			System.out.println("Bilangan prima");
+		}
+		else{
+			System.out.println("Bukan bilangan prima");
+		}
+	}
+}
+
+import java.util.Scanner;
+
+public class bilprim{
+	public static void main (String[] args){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Input Angka : ");
+		int x = input.nextInt();
+		int temp = 0;
+		for (int i=1; i<x; i++){
+			if (x%i==0){
+				temp=temp+1;
+			}
+		}
+		if (temp==1){
+			System.out.println("Bilangan prima");
+		}
+		else{
+			System.out.println("Bukan bilangan prima");
+		}
+	}
+}
