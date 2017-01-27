@@ -22,6 +22,7 @@ public class IndexPoint{
 		}return "failed";
 		}
 	public static void main(String[] args){
+		System.out.println("Inputkan Nilai dengan bilangan bulat!!! ");
 		Scanner in = new Scanner(System.in);
 		System.out.print("Inputkan Nilai UTS  : ");
 		int uts = in.nextInt();
