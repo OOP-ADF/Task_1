@@ -7,7 +7,7 @@ OOP ADF Task 1 : Introduction to Java
   * PrimeNumber.java
   * IndexPoint.java
   * TemperatureConvert.java
-  
+
 * You should write down your identity (Name, Student ID, Class) on the top of each file
   * fail to do so ==> point = 0
 
