@@ -1,1 +1,1 @@
-
+ini kelas Prime NUmber
