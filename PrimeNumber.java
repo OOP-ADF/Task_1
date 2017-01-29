@@ -11,15 +11,15 @@ import java.util.Scanner;
 
 class checkPrimeNumber {
     
-    private int i;
-    public void isPrimeNumber(int n) {
-        for(i = 2; i < n; i++) {
-            if(n % i == 0) {
-            	System.out.println("Not Prime Number !");
+    private int x;
+    public void isPrimeNumber(int angka) {
+        for(x = 2; x < angka; x++) {
+            if(angka % x == 0) {
+            	System.out.println("Bukan bilangan prima !");
                 break;
             }
             else {
-            	System.out.println("Prime Number !");
+            	System.out.println("Bilangan prima !");
                 break;
             }
         }
@@ -29,14 +29,14 @@ class checkPrimeNumber {
 public class PrimeNumber {
     
     public static void main(String[] args) {
-        int n;
-        Scanner input = new Scanner(System.in);
         
+        int angka;
+        Scanner input = new Scanner(System.in);
         checkPrimeNumber p = new checkPrimeNumber();
         
-        System.out.println("Input angka yang ingin dicek : ");
-        n = input.nextInt();
+        System.out.print("Input angka yang ingin dicek : ");
+        angka = input.nextInt();
         
-        p.isPrimeNumber(n);
+        p.isPrimeNumber(angka);
     }
 }

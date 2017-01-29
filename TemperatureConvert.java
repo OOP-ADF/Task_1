@@ -10,7 +10,7 @@
 */
 
 import java.util.Scanner;
- 
+
 class Temperatur {
     
     private double hasil;
@@ -30,11 +30,11 @@ class Temperatur {
     }
 }
 
- public class TemperatureConvert {
+public class TemperatureConvert {
 
-   public static void main(String[] args) {
+    public static void main(String[] args) {
    	
-   	Temperatur suhu = new Temperatur();
+    Temperatur suhu = new Temperatur();
 
     Scanner input = new Scanner(System.in);
     int pilihan;
@@ -44,33 +44,41 @@ class Temperatur {
     celc = input.nextFloat();
  
     do {
-      do {
-        System.out.println("Konversi suhu ke ...");
-        System.out.println("1) Reamur");
-        System.out.println("2) Fahrenheit");
-        System.out.println("3) Kelvin");
-        System.out.println("Pilihan : ");
-        pilihan = input.nextInt();
-      } while(pilihan != 1 && pilihan != 2 && pilihan != 3);
- 
-      switch(pilihan) {
-        case 1 :
-          suhu.toReamur(celc);
-          break;
-        case 2 :
-          suhu.toFahrenheit(celc);
-          break;
-        case 3 :
-          suhu.toKelvin(celc);
-          break;
-        default:
-          break;
-       }
-       pilihan = 0;
-      while(pilihan != 2 && pilihan != 1) {
-        System.out.println("Konversi lagi? Ketik 1 untuk YA & ketik 2 untuk TIDAK");
-        pilihan = input.nextInt();
-      }
+        do {
+            System.out.println("");
+            System.out.println("Proses konversi ke suhu tertentu");
+            System.out.println("1. Reamur");
+            System.out.println("2. Fahrenheit");
+            System.out.println("3. Kelvin");
+            System.out.print("Pilihan : ");
+            pilihan = input.nextInt();
+            System.out.println("");
+        } while(pilihan != 1 && pilihan != 2 && pilihan != 3);
+        
+        switch(pilihan) {
+            case 1 :
+                suhu.toReamur(celc);
+                break;
+            case 2 :
+                suhu.toFahrenheit(celc);
+                break;
+            case 3 :
+                suhu.toKelvin(celc);
+                break;
+            default:
+                break;
+        }
+       
+        pilihan = 0;
+      
+        while(pilihan != 1 && pilihan != 2) {
+            System.out.println("");
+            System.out.println("1 untuk KONVERSI LAGI");
+            System.out.println("2 untuk SELESAI");
+            System.out.print("Pilihan :");
+            pilihan = input.nextInt();
+        }
+        
     } while(pilihan == 1);
   }
-} 
+}
