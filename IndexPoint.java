@@ -1,7 +1,7 @@
 
 package Task_1;
 public class IndexPoint {
-int x;
+double x;
     public void cek (int a,int b, int c)
     {
         x = ((35*a)/100) + ((40*b)/100) + ((25*c)/100);
