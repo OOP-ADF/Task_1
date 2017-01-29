@@ -1,6 +1,6 @@
 package Task_1;
 public class TemperatureConvert {
-int k,f,r;
+double k,f,r;
     public void con (int a)
     {
         
