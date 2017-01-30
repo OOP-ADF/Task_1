@@ -11,17 +11,19 @@ import java.util.Scanner;
 
 class checkPrimeNumber {
     
-    private int x;
+    private int x,y;
     public void isPrimeNumber(int angka) {
-        for(x = 2; x < angka; x++) {
+        for(x = 1; x < angka; x++) {
             if(angka % x == 0) {
-            	System.out.println("Bukan bilangan prima !");
-                break;
+                y++;
             }
-            else {
-            	System.out.println("Bilangan prima !");
-                break;
-            }
+        }
+        
+        if (y == 2) {
+            System.out.println("Bilangan Prima !");
+        }
+        else {
+            System.out.println("Bukan Bilangan Prima !");
         }
     }
 }
