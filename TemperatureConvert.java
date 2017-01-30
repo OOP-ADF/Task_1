@@ -67,7 +67,7 @@ public class TemperatureConvert {
                     System.out.println();
                 }
                 
-                System.out.println("Apakah anda ingin ke menu convert ? Tekan '1' jika 'IYA' atau '2' jika 'TIDAK' ");
+                System.out.println("Kembali ke menu convert ? YA '1' atau TIDAK '2'");
                 pilih = in.nextInt();
             }while(pilih != 2 && pilih == 1 && pilih > 2);
         }while(pilih == 1);
