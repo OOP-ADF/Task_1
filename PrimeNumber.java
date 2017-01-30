@@ -1,4 +1,3 @@
-
 /*
  * write a java program that ask user an input of integer and determine whether the number is prime or not
  * write the output
@@ -8,7 +7,9 @@ import java.util.Scanner;
 
 /**
  *
- * @author Christian Janifer
+ * @author Hendrik Christian Janifer Simanjuntak
+ * 1301150021
+ * Kelas39-07
  */
 public class PrimeNumber {
     

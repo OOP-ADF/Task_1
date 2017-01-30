@@ -1,4 +1,3 @@
-
 /*
  * write a java program that ask user 3 inputs of number that represent mid-term score (UTS), end-term score (UAS), and Quiz score
  * calculate the final score of 35% mid-term score, 40% end-term score, and 25% Quiz score
@@ -9,7 +8,9 @@ import java.util.Scanner;
 
 /**
  *
- * @author Christian Janifer
+ * @author Hendrik Christian Janifer Simanjuntak
+ * 1301150021
+ * Kelas39-07
  */
 public class IndexPoint {
 
