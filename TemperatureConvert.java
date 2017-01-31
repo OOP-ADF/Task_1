@@ -4,6 +4,7 @@
  * write the output
  *ask the user if he/she wants to convert the number to another degrees from
  */
+package temperatureconvert;
 
 import java.util.Scanner;
 import static temperatureconvert.TemperatureConvert.in;
@@ -22,17 +23,17 @@ public class TemperatureConvert {
     
     public void Reamur(){
         na = celc * 4/5;
-        System.out.print(celc + " Celcius: "+ na +" Reamur" );
+        System.out.println(celc + " Celcius: "+ na +" Reamur" );
     }
     
     public void Fahrenheit(){
         na = celc * 9/5 + 32;
-        System.out.print(celc + " Celcius: "+ na +" Fahrenheit");
+        System.out.println(celc + " Celcius: "+ na +" Fahrenheit");
     }
     
     public void Kelvin(){
         na = celc + 273.15;
-        System.out.print(celc + " Celcius: "+ na +" Kelvin");
+        System.out.println(celc + " Celcius: "+ na +" Kelvin");
     }
     
     public void menu(){
@@ -69,7 +70,8 @@ public class TemperatureConvert {
                     System.out.println();
                 }
                 
-                System.out.println("Kembali ke menu convert ? YA '1' atau TIDAK '2'");
+                System.out.println("Apakah anda ingin ke menu convert ? Tekan '1' jika 'IYA' atau '2' jika 'TIDAK' ");
+                System.out.print("Pilih: ");
                 pilih = in.nextInt();
             }while(pilih != 2 && pilih == 1 && pilih > 2);
         }while(pilih == 1);
