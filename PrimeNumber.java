@@ -1,6 +1,7 @@
 package javaapplication1;
 
  import java.util.Scanner;
+ 
 public class Prima {
     public static void main(String[] args) {
     Scanner masukan=new Scanner(System.in);

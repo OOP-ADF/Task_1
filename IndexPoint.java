@@ -14,7 +14,7 @@ String nama , nim ;
         n_uts = input.nextInt();
         System.out.print("Nilai uas : ");
         n_uas = input.nextInt();
-        n_akhir = ( 0.20 * n_kuis + 0.30 * n_uts + 0.35 * n_uas);
+        n_akhir = ( 0.25 * n_kuis + 0.35 * n_uts + 0.40 * n_uas);
         
         
     
