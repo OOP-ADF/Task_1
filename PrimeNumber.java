@@ -1,4 +1,19 @@
-//Irvan Nur Apendi 1301154208 IF-39-12
+
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Nama : Irvan Nur Apendi
+ * Kelas : IF-39-12
+ * NIM : 1301154208
+ *
+ * @author Irvan
+ */
 import java.util.Scanner;
 public class ProgramPrima {
     public static void main(String[] args) {
