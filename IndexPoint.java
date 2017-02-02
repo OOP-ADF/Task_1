@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 /**
  *
+ * @author 1301154404_Muhammad Rifky Putra Ananda_IF39-12
  */
 public class IndeksNilai {
 
