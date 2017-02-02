@@ -10,10 +10,10 @@
 import java.util.Scanner;
 
 class checkPrimeNumber {
-    
-    private int x,y;
+   
     public void isPrimeNumber(int angka) {
-        for(x = 1; x < angka; x++) {
+        int x , y = 0;
+        for(x = 1; x <= angka; x++) {
             if(angka % x == 0) {
                 y++;
             }
