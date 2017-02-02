@@ -3,20 +3,23 @@ package IndexPoint;
 import java.util.Scanner;
 
 public class IndexPoint{
-    public static void main(String[] args, double UAS, double UTS){
+  public static void main(String[] args) {
+    
         String nama;
-        int nilai1, nilai2, nilai3;
+        int nilai1, nilai2, nilai3,nim;
         double kuis, uts, uas, na;
         
         Scanner a = new Scanner(System.in);
         
-        System.out.println(" Masukkan Nama Mahasiswa : ");
+        System.out.print(" Masukkan Nama Mahasiswa : ");
         nama = a.nextLine();
-        System.out.println("Masukkan nilai UTS Mahasiswa : ");
+        System.out.print("Masukkan NIM Mahasiswa : ");
+        nim = a.nextInt();
+        System.out.print("Masukkan nilai UTS Mahasiswa : ");
         nilai1 = a.nextInt();
-        System.out.println("Masukkan nilai UAS Mahasiswa : ");
+        System.out.print("Masukkan nilai UAS Mahasiswa : ");
         nilai2 = a.nextInt();
-        System.out.println("Masukkan nilai Kuis Mahasiswa : ");
+        System.out.print("Masukkan nilai Kuis Mahasiswa : ");
         nilai3 = a.nextInt();
         
         uts = 0.35*nilai1;
