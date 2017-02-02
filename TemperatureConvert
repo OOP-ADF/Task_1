@@ -1,0 +1,35 @@
+public class TemperatureConvert {
+    public static void main(String[] args) {
+        Scanner suhu = new Scanner(System.in);
+        System.out.println("Masukkan Suhu : ");
+        int input = suhu.nextInt();
+        System.out.println("Pilih suhu yang akan di convert ke mana : ");
+        System.out.println("1. Reamur");
+        System.out.println("2. Kelvin");
+        System.out.println("3. Fahrenheit");
+        
+        double hasil;
+        int pilihan = suhu.nextInt();
+        if (pilihan == 1) 
+        { 
+            hasil = 0.8 * input;
+            System.out.print("Hasilnya adalah = " + hasil + "Reamur");
+        }
+        if (pilihan == 2)
+        {
+            hasil = 273 + input;
+            System.out.print("Hasilnya adalah = " + hasil + "Kelvin");
+        }
+        if (pilihan == 3) 
+        {
+            hasil = (9/5 * input) + 32;
+            System.out.print("Hasilnya adalah = " + hasil + "Fahrenheit");
+        }
+        else 
+        {
+            System.out.print("Menu yang di input tidak ada di menu ");
+        }
+    }
+
+  
+}
