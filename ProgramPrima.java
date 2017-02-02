@@ -1,3 +1,4 @@
+// Irvan Nur Apendi IF-39-12 1301154208
 public class ProgramPrima {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
