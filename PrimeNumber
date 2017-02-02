@@ -1,0 +1,22 @@
+public class PrimeNumber {
+    public static void main(String[] args) {
+        Scanner angka = new Scanner(System.in);
+        System.out.println("Masukkan angka");
+        int i = 0;
+        int bil = angka.nextInt();
+        for (int j = 1; j < bil; j++) {
+            if (bil % j == 0) 
+            {
+                i = i+1;
+            }
+        }
+        if (i == 1) 
+        {
+            System.out.println("Bilangan Prima");
+        }
+        else
+        {
+            System.out.println("Bukan Bilangan Prima");
+        }
+    }
+}

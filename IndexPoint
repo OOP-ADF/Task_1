@@ -1,0 +1,33 @@
+public class IndexPoint {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan Nilai Quiz : ");
+        int nilaiquiz = input.nextInt();
+        System.out.print("Masukkan Nilai UTS : ");
+        int nilaiuts = input.nextInt();
+        System.out.print("Masukkan nilai UAS : ");
+        int nilaiuas = input.nextInt();
+        
+        double NA = ((0.25*nilaiquiz) + (0.35*nilaiuts) + (0.4*nilaiuas));
+        if (NA >= 85 && NA <= 100) {
+            System.out.print("Grade = Excellent");}
+        else if (NA >= 75 && NA <= 84){
+            System.out.print("Grade = Very Good");} 
+        else if (NA >= 65 && NA <= 74)
+        {
+            System.out.print("Grade = Good");
+        } else if (NA >= 50 && NA <= 64)
+        {
+            System.out.print("Grade = Accepted");
+        } else if (NA >= 0 && NA <= 49){
+            System.out.print("Grade = Failed");
+        }
+        else if (NA > 100) {
+            System.out.print("Nilai terlalu besar");
+        }
+        else if (NA < 0)
+        {
+            System.out.print("Nilai terlalu kecil");
+        }
+    }
+}
