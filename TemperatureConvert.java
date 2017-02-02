@@ -9,6 +9,8 @@ public class TemperatureConvert{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double c, r, f, k, kelvin, reamur, fahrenheit, celcius;
+        int x=0;
+        while(x==0){
         System.out.println("Temperature Convert");
         System.out.println("1. Celcius");
         System.out.println("2. Reamur");
@@ -19,7 +21,7 @@ public class TemperatureConvert{
         
         switch(pil){
             case 1 :
-                System.out.print("Masukkan Nilai Celcius : ");
+                System.out.print("Masukkan Suhu Celcius : ");
                 c = input.nextDouble();
                 reamur     = 0.8*c;
                 fahrenheit = (1.8*c)+32;
@@ -28,7 +30,7 @@ public class TemperatureConvert{
                 break;
                 
             case 2 :
-                System.out.println("Masukkan Nilai Reamur : ");
+                System.out.println("Masukkan Suhu Reamur : ");
                 r = input.nextDouble();
                 celcius = 1.25*r;
                 fahrenheit = (2.25*r)+32;
@@ -37,7 +39,7 @@ public class TemperatureConvert{
                 break;
                 
             case 3 : 
-                System.out.println("Masukkan Nilai Fahrenheit : ");
+                System.out.println("Masukkan Suhu Fahrenheit : ");
                 f = input.nextDouble();
                 celcius = 0.556*(f-32);
                 reamur = 0.444*(f-32);
@@ -46,7 +48,7 @@ public class TemperatureConvert{
                 break;   
                 
             case 4 : 
-                System.out.println("Masukkan Nilai Kelvin : ");
+                System.out.println("Masukkan Suhu Kelvin : ");
                 k = input.nextDouble();
                 celcius = k-273;
                 reamur = 0.8*(k-273);
@@ -54,6 +56,17 @@ public class TemperatureConvert{
                 System.out.println(celcius+"' celcius dan "+ reamur+"' reamur dan "+fahrenheit+"' fahrenheit.");
                 break;                               
         }
-    
-    }
+        
+        System.out.println("Apakah Ingin mencoba lagi? ");
+        System.out.println("1. Ya");
+        System.out.println("2. Tidak");
+        System.out.print("Pilih : ");
+        pil = input.nextInt();
+        if (pil==1){
+            System.out.println(pil);
+        }
+        else{
+            System.exit(0);
+        }
+    }}
 }
