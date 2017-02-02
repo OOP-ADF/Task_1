@@ -34,7 +34,7 @@ public class TemperatureConvert{
                     System.out.println(kelvin + " derajat kelvin");
                     break;
             }
-            System.out.println("Apakah Anda Ingin Mengkonversi Suhu Lahi ? ");
+            System.out.println("Apakah Anda Ingin Mengkonversi Suhu Lagi ? ");
             System.out.println("1. Ya");
             System.out.println("2. Tidak");
             lagi = konversi.nextInt();
