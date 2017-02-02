@@ -10,7 +10,7 @@
   *
   * @author Aldika W
   */
- public class TemperatureConvertz 
+ public class TemperatureConvert 
     {
      
  public static void clrscr(){
