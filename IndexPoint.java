@@ -1,3 +1,4 @@
+// Irvan Nur Apendi 1301154208 IF-39-12
 public class IndexPoint {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
