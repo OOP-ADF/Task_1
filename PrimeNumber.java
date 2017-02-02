@@ -6,18 +6,18 @@ public class PrimeNumber{
         int count = 0;
         int bil;
         
-        System.out.println("Masukkan bilangan : ");
+        System.out.print("Masukkan bilangan : ");
         bil = bilangan.nextInt();
         for (int i = 2; i < bil ; i++){
             if ((bil % i) == 0){
                 count++;
             }
         }
-         if(count == 0 || bil >= 2){
-            System.out.println(bil+ " merupakan bilangan prima");
+         if(count > 0 || bil < 2){
+            System.out.println(bil+ " bukan bilangan prima");
         }
         else {
-            System.out.println(bil + " bukan bilangan prima");
+            System.out.println(bil + " merupakan bilangan prima");
         }
     }
 }
