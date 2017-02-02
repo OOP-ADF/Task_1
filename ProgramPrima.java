@@ -1,10 +1,10 @@
-// Irvan Nur Apendi IF-39-12 1301154208
+//Irvan Nur Apendi 1301154208 IF-39-12
 public class ProgramPrima {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan sebuah bilangan : ");
-		int i = 0;
         int bilangan = input.nextInt();
+        int i = 0;
         for (int j = 1; j < bilangan; j++) {
             if (bilangan % j == 0) 
             {

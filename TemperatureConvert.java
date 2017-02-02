@@ -1,4 +1,4 @@
-// Irvan Nur Apendi IF-39-12 1301154208
+//Irvan Nur Apendi 1301154208 IF-39-12
 public class TemperatureConvert {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
