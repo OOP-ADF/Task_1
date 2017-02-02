@@ -1,3 +1,7 @@
+/**
+ * Nafasa Muth Ma'nah
+ * 1301150441
+ */
 package IndexPoint;
 
 import java.util.Scanner;

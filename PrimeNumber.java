@@ -1,3 +1,7 @@
+/**
+ * Nafasa Muth Ma'nah
+ * 1301150441
+ */
 package PrimeNumber;
 import java.util.Scanner;
 public class PrimeNumber{
