@@ -1,4 +1,5 @@
 //Irvan Nur Apendi 1301154208 IF-39-12
+import java.util.Scanner;
 public class ProgramPrima {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
