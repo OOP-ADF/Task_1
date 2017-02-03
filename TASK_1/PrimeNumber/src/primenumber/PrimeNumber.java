@@ -1,4 +1,3 @@
-
 //Nindia Cahyaning Putri
 //IF39-07
 //1301154567
@@ -12,7 +11,6 @@ public class PrimeNumber {
         System.out.print("Masukan sebuah bilangan : ");
         int bil = input.nextInt ();
         boolean prima = true;
-	/*Rumus*/
         for (int i=2 ; i<bil ; i++) {
             if ((bil % i) == 0) {
                 prima = false;   
