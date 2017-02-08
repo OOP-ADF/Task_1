@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author GL552JX
+ * @author made rama_1301154203
  */
 public class No2 {
 
